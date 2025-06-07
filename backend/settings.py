@@ -137,3 +137,7 @@ CHANNEL_LAYERS = {
         },
     },
 }
+
+AUTH_USER_MODEL = 'chat.CustomUser'
+# AUTHENTICATION_BACKENDS = ['chat.views.PhoneBackend']
+
